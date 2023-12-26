@@ -1,12 +1,12 @@
 #!/usr/bin/python3
+"""
+    A route to to return a function
+"""
 
 from flask import Flask
 
 app = Flask(__name__)
 
-"""
-    A route to to return a function
-"""
 
 
 @app.route('/', strict_slashes=False)
