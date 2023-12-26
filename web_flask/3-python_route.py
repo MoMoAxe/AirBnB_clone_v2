@@ -48,6 +48,7 @@ def c_text(text):
 
     return f'C {Text}'
 
+
 @app.route('/python/')
 @app.route('/python/<text>')
 def python_text(text="is cool"):
