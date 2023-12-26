@@ -13,7 +13,7 @@ def hello():
     """
         This function returns 'Hello world'
     """
-    return 'Hello HBNB!\n'
+    return 'Hello HBNB!'
 
 
 if __name__ == "__main__":
